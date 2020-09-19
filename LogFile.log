@@ -1,0 +1,112 @@
+08:15:12.346  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:15:12.481  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:15:36.436  [main] INFO  c.s.framework.steps.HookSteps - After
+08:15:37.074  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:15:37.092  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:15:37.110  [main] INFO  c.s.framework.steps.HookSteps - After
+08:15:37.118  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:15:37.128  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:15:37.134  [main] INFO  c.s.framework.steps.HookSteps - After
+08:15:37.138  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:15:37.145  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:15:37.152  [main] INFO  c.s.framework.steps.HookSteps - After
+08:15:37.155  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:15:37.163  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:15:37.169  [main] INFO  c.s.framework.steps.HookSteps - After
+08:16:53.197  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:16:53.298  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:17:10.181  [main] INFO  c.s.framework.steps.HookSteps - After
+08:17:10.898  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:17:10.910  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:17:10.923  [main] INFO  c.s.framework.steps.HookSteps - After
+08:17:10.929  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:17:10.938  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:17:10.944  [main] INFO  c.s.framework.steps.HookSteps - After
+08:17:10.946  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:17:10.952  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:17:10.958  [main] INFO  c.s.framework.steps.HookSteps - After
+08:17:10.960  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:17:10.966  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:17:10.972  [main] INFO  c.s.framework.steps.HookSteps - After
+08:19:44.389  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:19:44.513  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:20:02.098  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:20:02.113  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:20:02.129  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:20:02.138  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:20:02.145  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:20:02.152  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:20:02.159  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:20:02.165  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:23:50.510  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:23:50.647  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:24:08.007  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:24:08.018  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:24:24.356  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:24:24.365  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:24:41.390  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:24:41.397  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:25:03.630  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:25:03.639  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:32:01.576  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:32:01.739  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:32:07.615  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:32:07.625  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:32:08.961  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:32:18.741  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:32:19.663  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:32:19.677  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:32:24.827  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:32:24.835  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:32:25.367  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:32:34.884  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:32:35.744  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:32:35.755  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:32:40.850  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:32:40.857  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:32:41.813  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:32:51.686  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:32:52.632  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:32:52.639  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:32:57.703  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:32:57.712  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:32:58.627  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:33:05.798  [main] INFO  c.s.framework.steps.CommonSteps - User scroll down the page
+08:33:13.939  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:33:14.944  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:33:14.951  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:33:19.996  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:33:20.003  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:33:20.765  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:33:27.581  [main] INFO  c.s.framework.steps.CommonSteps - User scroll down the page
+08:52:34.964  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:52:35.081  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:52:40.918  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:52:40.927  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:52:42.013  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:52:57.325  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:52:58.121  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:52:58.133  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:53:03.210  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:53:03.221  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:53:04.024  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:53:19.544  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:53:20.423  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:53:20.446  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:53:25.529  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:53:25.541  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:53:26.825  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:53:36.886  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:53:37.868  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:53:37.874  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:53:42.911  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:53:42.918  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:53:43.790  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:53:50.729  [main] INFO  c.s.framework.steps.CommonSteps - User scroll down the page
+08:54:04.015  [main] INFO  c.s.framework.steps.CommonSteps - Navigated back
+08:54:04.795  [main] INFO  c.s.framework.steps.CommonSteps - Common steps
+08:54:04.802  [main] INFO  c.s.framework.steps.HookSteps - SetUp
+08:54:09.881  [main] INFO  c.s.framework.steps.CommonSteps - User not a validated
+08:54:09.892  [main] INFO  c.s.framework.steps.CommonSteps - Entering URL
+08:54:11.009  [main] INFO  c.s.framework.steps.CommonSteps - Homepage window displayed at maximize size
+08:54:18.172  [main] INFO  c.s.framework.steps.CommonSteps - User scroll down the page

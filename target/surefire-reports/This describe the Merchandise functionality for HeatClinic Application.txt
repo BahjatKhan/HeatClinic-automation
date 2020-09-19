@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: This describe the Merchandise functionality for HeatClinic Application
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 319.7 s - in This describe the Merchandise functionality for HeatClinic Application

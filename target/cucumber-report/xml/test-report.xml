@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="131.231997">
+<testcase classname="This describe the Clearance functionality for HeatClinic Application" name="1.User can click and view price on &quot;Green Ghost&quot; product and navigate back to clearance page" time="23.049973">
+<system-out><![CDATA[Given user not a validated..................................................passed
+When user browse to the "http://heatclinic.shiftedtech.com/"................passed
+Then homepage window should display on maximize size........................passed
+When user able to click on Clearance button.................................passed
+Then Clearance page should display..........................................passed
+Then in single page user able to see five products..........................passed
+Then user can able to see Green Ghost product name..........................passed
+Then user can able to see price tag for Green Ghost product.................passed
+When user click on Green Ghost product......................................passed
+Then Green Ghost product page should display................................passed
+Then user can navigate back to previous page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This describe the Clearance functionality for HeatClinic Application" name="2.User can click and view price on &quot;Blazin' Saddle XXX Hot Habanero Pepper Sauce&quot; product and navigate back to clearance page" time="22.288606">
+<system-out><![CDATA[Given user not a validated..................................................passed
+When user browse to the "http://heatclinic.shiftedtech.com/"................passed
+Then homepage window should display on maximize size........................passed
+When user able to click on Clearance button.................................passed
+Then Clearance page should display..........................................passed
+Then in single page user able to see five products..........................passed
+Then user can able to see Blazin'Saddle XXX Hot Habanero Pepper Sauce product name.passed
+Then user can able to see price tag Blazin'Saddle XXX Hot Habanero Pepper Sauce product.passed
+When user click on Blazin' Saddle XXX Hot Habanero Pepper Sauce product.....passed
+Then Blazin' Saddle XXX Hot Habanero Pepper Sauce product page should display.passed
+Then user can navigate back to previous page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This describe the Clearance functionality for HeatClinic Application" name="3.User can click and view price on &quot;Dr. Chilemeister's Insane Hot Sauce&quot; product and navigate back to clearance page" time="17.423046">
+<system-out><![CDATA[Given user not a validated..................................................passed
+When user browse to the "http://heatclinic.shiftedtech.com/"................passed
+Then homepage window should display on maximize size........................passed
+When user able to click on Clearance button.................................passed
+Then Clearance page should display..........................................passed
+Then in single page user able to see five products..........................passed
+Then user can able to see Dr. Chilemeister's Insane Hot Sauce product name..passed
+Then user can able to see price tag Dr. Chilemeister's Insane Hot Sauce product.passed
+When user click on  Dr. Chilemeister's Insane Hot Sauce product.............passed
+Then Dr. Chilemeister's Insane Hot Sauce product page should display........passed
+Then user can navigate back to previous page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This describe the Clearance functionality for HeatClinic Application" name="4.User can click and view price on &quot;Bull Snort Cowboy Cayenne Pepper Hot Sauce&quot; product and navigate back to clearance page" time="26.919284">
+<system-out><![CDATA[Given user not a validated..................................................passed
+When user browse to the "http://heatclinic.shiftedtech.com/"................passed
+Then homepage window should display on maximize size........................passed
+When user able to click on Clearance button.................................passed
+Then Clearance page should display..........................................passed
+Then in single page user able to see five products..........................passed
+When user scroll down the page..............................................passed
+Then user can able to see Bull Snort Cowboy Cayenne Pepper Hot Sauce product name.passed
+Then user can able to see price tag Bull Snort Cowboy Cayenne Pepper Hot Sauce product.passed
+Then user able to click on Bull Snort Cowboy Cayenne Pepper Hot Sauce product.passed
+Then Bull Snort Cowboy Cayenne Pepper Hot Sauce product page should display.passed
+Then user can navigate back to previous page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This describe the Clearance functionality for HeatClinic Application" name="5.User can click and view price on &quot;Hurtin' Jalepeno Hot Sauce&quot; product and navigate back to clearance page" time="41.551088">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@href,'/hot-sauces')]/img[contains(@alt,'Hurtin')]&quot;}&#10;  (Session info: chrome=79.0.3945.130)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-F9SUKND', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\bahja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6a8e396ee3d4ff50cb8e1e04c64d5f7c&#10;*** Element info: {Using=xpath, value=//a[contains(@href,'/hot-sauces')]/img[contains(@alt,'Hurtin')]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at com.shiftedtech.framework.steps.ClearanceSteps.lambda$new$21(ClearanceSteps.java:235)&#13;&#10;&#9;at ✽.user able to click on Hurtin'Jalepeno Hot Sauce product(file:src/test/resources/features/HeatClinicClearanceFunctionality.feature:46)&#13;&#10;"><![CDATA[Given user not a validated..................................................passed
+When user browse to the "http://heatclinic.shiftedtech.com/"................passed
+Then homepage window should display on maximize size........................passed
+When user able to click on Clearance button.................................passed
+Then Clearance page should display..........................................passed
+Then in single page user able to see five products..........................passed
+When user scroll down the page..............................................passed
+Then user can able to see Hurtin' Jalepeno Hot Sauce product name...........passed
+Then user can able to see price tag Hurtin' Jalepeno Hot Sauce product......passed
+Then user able to click on Hurtin'Jalepeno Hot Sauce product................failed
+Then Hurtin' Jalepeno Hot Sauce product page should display.................skipped
+Then user can navigate back to previous page................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'/hot-sauces')]/img[contains(@alt,'Hurtin')]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F9SUKND', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\bahja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a8e396ee3d4ff50cb8e1e04c64d5f7c
+*** Element info: {Using=xpath, value=//a[contains(@href,'/hot-sauces')]/img[contains(@alt,'Hurtin')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.shiftedtech.framework.steps.ClearanceSteps.lambda$new$21(ClearanceSteps.java:235)
+	at ✽.user able to click on Hurtin'Jalepeno Hot Sauce product(file:src/test/resources/features/HeatClinicClearanceFunctionality.feature:46)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+com\shiftedtech\script\Junit\ScriptBase.class
+com\shiftedtech\BDDRunner\BDDRunner.class
+com\shiftedtech\Normal.class
+com\shiftedtech\script\Junit\HeatClinicMerchandiseWomenSectionTestScript.class
+com\shiftedtech\script\Junit\HeatClinicHomePageTestScript.class
+com\shiftedtech\script\TestNG\BaseScriptTestNG.class

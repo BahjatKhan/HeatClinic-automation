@@ -1,0 +1,938 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8114700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user not a validated",
+            "match": {
+              "location": "CommonSteps.java:17"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1084550800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user browse to the \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://heatclinic.shiftedtech.com/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "CommonSteps.java:21"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4232670600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "homepage window should display on maximize size",
+            "match": {
+              "location": "CommonSteps.java:29"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2929720000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to click on Clearance button",
+            "match": {
+              "location": "ClearanceSteps.java:18"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9233300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clearance page should display",
+            "match": {
+              "location": "ClearanceSteps.java:23"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25245700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "in single page user able to see five products",
+            "match": {
+              "location": "ClearanceSteps.java:36"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-10T13:52:35.069Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5836229600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:79"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "1.User can click and view price on \"Green Ghost\" product and navigate back to clearance page",
+        "description": "",
+        "id": "this-describe-the-clearance-functionality-for-heatclinic-application;1.user-can-click-and-view-price-on-\"green-ghost\"-product-and-navigate-back-to-clearance-page",
+        "after": [
+          {
+            "result": {
+              "duration": 637133600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:309"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25746200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user can able to see Green Ghost product name",
+            "match": {
+              "location": "ClearanceSteps.java:42"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25224300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user can able to see price tag for Green Ghost product",
+            "match": {
+              "location": "ClearanceSteps.java:54"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8031434100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on Green Ghost product",
+            "match": {
+              "location": "ClearanceSteps.java:69"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30639900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Green Ghost product page should display",
+            "match": {
+              "location": "ClearanceSteps.java:74"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157555100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user can navigate back to previous page",
+            "match": {
+              "location": "CommonSteps.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10305500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user not a validated",
+            "match": {
+              "location": "CommonSteps.java:17"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 803249900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user browse to the \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://heatclinic.shiftedtech.com/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "CommonSteps.java:21"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4311925100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "homepage window should display on maximize size",
+            "match": {
+              "location": "CommonSteps.java:29"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2564582800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to click on Clearance button",
+            "match": {
+              "location": "ClearanceSteps.java:18"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5850900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clearance page should display",
+            "match": {
+              "location": "ClearanceSteps.java:23"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24427100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "in single page user able to see five products",
+            "match": {
+              "location": "ClearanceSteps.java:36"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-10T13:52:58.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5075753000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:79"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "2.User can click and view price on \"Blazin\u0027 Saddle XXX Hot Habanero Pepper Sauce\" product and navigate back to clearance page",
+        "description": "",
+        "id": "this-describe-the-clearance-functionality-for-heatclinic-application;2.user-can-click-and-view-price-on-\"blazin--saddle-xxx-hot-habanero-pepper-sauce\"-product-and-navigate-back-to-clearance-page",
+        "after": [
+          {
+            "result": {
+              "duration": 634091900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:309"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22279700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user can able to see Blazin\u0027Saddle XXX Hot Habanero Pepper Sauce product name",
+            "match": {
+              "location": "ClearanceSteps.java:84"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23486000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user can able to see price tag Blazin\u0027Saddle XXX Hot Habanero Pepper Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:94"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8533662600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on Blazin\u0027 Saddle XXX Hot Habanero Pepper Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:108"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32290300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Blazin\u0027 Saddle XXX Hot Habanero Pepper Sauce product page should display",
+            "match": {
+              "location": "ClearanceSteps.java:113"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 242048800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user can navigate back to previous page",
+            "match": {
+              "location": "CommonSteps.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11027500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user not a validated",
+            "match": {
+              "location": "CommonSteps.java:17"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1283412800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user browse to the \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://heatclinic.shiftedtech.com/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "CommonSteps.java:21"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4306416000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "homepage window should display on maximize size",
+            "match": {
+              "location": "CommonSteps.java:29"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2802188400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to click on Clearance button",
+            "match": {
+              "location": "ClearanceSteps.java:18"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15708500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clearance page should display",
+            "match": {
+              "location": "ClearanceSteps.java:23"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42795000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "in single page user able to see five products",
+            "match": {
+              "location": "ClearanceSteps.java:36"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-10T13:53:20.444Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5083084400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:79"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "3.User can click and view price on \"Dr. Chilemeister\u0027s Insane Hot Sauce\" product and navigate back to clearance page",
+        "description": "",
+        "id": "this-describe-the-clearance-functionality-for-heatclinic-application;3.user-can-click-and-view-price-on-\"dr.-chilemeister-s-insane-hot-sauce\"-product-and-navigate-back-to-clearance-page",
+        "after": [
+          {
+            "result": {
+              "duration": 695208200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:309"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20959300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user can able to see Dr. Chilemeister\u0027s Insane Hot Sauce product name",
+            "match": {
+              "location": "ClearanceSteps.java:124"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22973100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user can able to see price tag Dr. Chilemeister\u0027s Insane Hot Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:138"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2799014700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user click on  Dr. Chilemeister\u0027s Insane Hot Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:151"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49133100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Dr. Chilemeister\u0027s Insane Hot Sauce product page should display",
+            "match": {
+              "location": "ClearanceSteps.java:156"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 286068200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user can navigate back to previous page",
+            "match": {
+              "location": "CommonSteps.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7382600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user not a validated",
+            "match": {
+              "location": "CommonSteps.java:17"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 871281700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user browse to the \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://heatclinic.shiftedtech.com/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "CommonSteps.java:21"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4120897600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "homepage window should display on maximize size",
+            "match": {
+              "location": "CommonSteps.java:29"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2787110500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to click on Clearance button",
+            "match": {
+              "location": "ClearanceSteps.java:18"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5939700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clearance page should display",
+            "match": {
+              "location": "ClearanceSteps.java:23"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24363800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "in single page user able to see five products",
+            "match": {
+              "location": "ClearanceSteps.java:36"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-10T13:53:37.874Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5035440700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:79"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "4.User can click and view price on \"Bull Snort Cowboy Cayenne Pepper Hot Sauce\" product and navigate back to clearance page",
+        "description": "",
+        "id": "this-describe-the-clearance-functionality-for-heatclinic-application;4.user-can-click-and-view-price-on-\"bull-snort-cowboy-cayenne-pepper-hot-sauce\"-product-and-navigate-back-to-clearance-page",
+        "after": [
+          {
+            "result": {
+              "duration": 623448800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:309"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5008104900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user scroll down the page",
+            "match": {
+              "location": "CommonSteps.java:33"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21957000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user can able to see Bull Snort Cowboy Cayenne Pepper Hot Sauce product name",
+            "match": {
+              "location": "ClearanceSteps.java:170"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23150600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user can able to see price tag Bull Snort Cowboy Cayenne Pepper Hot Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:183"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8198404300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user able to click on Bull Snort Cowboy Cayenne Pepper Hot Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:196"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33415600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Bull Snort Cowboy Cayenne Pepper Hot Sauce product page should display",
+            "match": {
+              "location": "ClearanceSteps.java:201"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154688500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user can navigate back to previous page",
+            "match": {
+              "location": "CommonSteps.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10754500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user not a validated",
+            "match": {
+              "location": "CommonSteps.java:17"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1117137200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user browse to the \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://heatclinic.shiftedtech.com/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "CommonSteps.java:21"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4297158200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "homepage window should display on maximize size",
+            "match": {
+              "location": "CommonSteps.java:29"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2829528100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to click on Clearance button",
+            "match": {
+              "location": "ClearanceSteps.java:18"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9963400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clearance page should display",
+            "match": {
+              "location": "ClearanceSteps.java:23"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24610100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "in single page user able to see five products",
+            "match": {
+              "location": "ClearanceSteps.java:36"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-10T13:54:04.801Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5078919200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:79"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "5.User can click and view price on \"Hurtin\u0027 Jalepeno Hot Sauce\" product and navigate back to clearance page",
+        "description": "",
+        "id": "this-describe-the-clearance-functionality-for-heatclinic-application;5.user-can-click-and-view-price-on-\"hurtin--jalepeno-hot-sauce\"-product-and-navigate-back-to-clearance-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4888188500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlue.java:309"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5006374600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user scroll down the page",
+            "match": {
+              "location": "CommonSteps.java:33"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25041800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user can able to see Hurtin\u0027 Jalepeno Hot Sauce product name",
+            "match": {
+              "location": "ClearanceSteps.java:214"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8199565800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user can able to see price tag Hurtin\u0027 Jalepeno Hot Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:228"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@href,\u0027/hot-sauces\u0027)]/img[contains(@alt,\u0027Hurtin\u0027)]\"}\n  (Session info: chrome\u003d79.0.3945.130)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-F9SUKND\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\bahja\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6a8e396ee3d4ff50cb8e1e04c64d5f7c\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(@href,\u0027/hot-sauces\u0027)]/img[contains(@alt,\u0027Hurtin\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.shiftedtech.framework.steps.ClearanceSteps.lambda$new$21(ClearanceSteps.java:235)\r\n\tat ✽.user able to click on Hurtin\u0027Jalepeno Hot Sauce product(file:src/test/resources/features/HeatClinicClearanceFunctionality.feature:46)\r\n",
+              "duration": 10058001300,
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "user able to click on Hurtin\u0027Jalepeno Hot Sauce product",
+            "match": {
+              "location": "ClearanceSteps.java:234"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 339300,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Hurtin\u0027 Jalepeno Hot Sauce product page should display",
+            "match": {
+              "location": "ClearanceSteps.java:239"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212300,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "user can navigate back to previous page",
+            "match": {
+              "location": "CommonSteps.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This describe the Clearance functionality for HeatClinic Application",
+    "description": "  Description:This explain how a user can view,add and remove Clearance product.",
+    "id": "this-describe-the-clearance-functionality-for-heatclinic-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HeatClinicClearanceFunctionality.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>HeatClinic</groupId>
+    <artifactId>HeatClinicAutomationProject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <selenium.version>3.141.59</selenium.version>
+        <webdrivermanager.version>3.4.0</webdrivermanager.version>
+        <junit.version>4.12</junit.version>
+        <maven-compiler.version>3.8.0</maven-compiler.version>
+        <webdrivermanager.version>3.7.1</webdrivermanager.version>
+        <jxl.version>2.6.12</jxl.version>
+        <JUnitParams.version>1.1.1</JUnitParams.version>
+        <poi.version>4.1.1</poi.version>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <poi-ooxml.version>4.1.1</poi-ooxml.version>
+        <cucumber-junit.version>4.8.0</cucumber-junit.version>
+        <cucumber-java.version>4.8.0</cucumber-java.version>
+        <cucumber-expressions.version>8.3.1</cucumber-expressions.version>
+        <cucumber-reporting.version>5.0.1</cucumber-reporting.version>
+        <testng.version>6.14.3</testng.version>
+        <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+        <surefire-junit47.version>3.0.0-M3</surefire-junit47.version>
+        <browser>CHROME</browser>
+        <cucumber-java8.version>4.8.1</cucumber-java8.version>
+        <log4j-core.version>2.13.0</log4j-core.version>
+        <serenity.version>2.0.91</serenity.version>
+        <serenity.maven.version>2.0.41</serenity.maven.version>
+        <serenity-junit.version>2.0.91</serenity-junit.version>
+        <serenity.cucumber.version>1.9.31</serenity.cucumber.version>
+        <serenity-core.version>2.0.91</serenity-core.version>
+        <serenity-cucumber.version>1.9.50</serenity-cucumber.version>
+        <java-hamcrest.version>2.0.0.0</java-hamcrest.version>
+        <assertj-core.version>3.14.0</assertj-core.version>
+        <hamcrest-all.version>1.3</hamcrest-all.version>
+        <slf4j-api.version>1.7.30</slf4j-api.version>
+        <log4j-core.version>2.13.0</log4j-core.version>
+        <logback-classic.version>1.2.3</logback-classic.version>
+        <org.jacoco.core.version>0.8.5</org.jacoco.core.version>
+
+    </properties>
+
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <!--
+            <scope>test</scope>
+            -->
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+        <dependency>
+            <groupId>net.sourceforge.jexcelapi</groupId>
+            <artifactId>jxl</artifactId>
+            <version>${jxl.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/pl.pragmatists/JUnitParams -->
+        <dependency>
+            <groupId>pl.pragmatists</groupId>
+            <artifactId>JUnitParams</artifactId>
+            <version>${JUnitParams.version}</version>
+            <!--  <scope>test</scope>-->
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+        <!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+        <dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.poi</groupId>-->
+        <!--            <artifactId>poi</artifactId>-->
+        <!--            <version>${poi.version}</version>-->
+        <!--        </dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi-ooxml.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${cucumber-junit.version}</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber-java.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-expressions -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-expressions</artifactId>
+            <version>${cucumber-expressions.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>${cucumber-reporting.version}</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <!--            <scope>test</scope>-->
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.1.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java8</artifactId>
+            <version>${cucumber-java8.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.trivago.rta</groupId>
+            <artifactId>cluecumber-report-plugin</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+        <!-- Thanks for using https://jar-download.com -->
+
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j-core.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/java-hamcrest -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>java-hamcrest</artifactId>
+            <version>${java-hamcrest.version}</version>
+            <!--  <scope>test</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj-core.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j-api.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j-core.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback-classic.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.core -->
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>org.jacoco.core</artifactId>
+            <version>${org.jacoco.core.version}</version>
+        </dependency>
+
+
+
+
+        <!-- <dependency>
+             <groupId>net.serenity-bdd</groupId>
+             <artifactId>serenity-core</artifactId>
+             <version>${serenity-core.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>net.serenity-bdd</groupId>
+             <artifactId>serenity-spring</artifactId>
+             <version>${serenity.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>net.serenity-bdd</groupId>
+             <artifactId>serenity-junit</artifactId>
+             <version>${serenity-junit.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>net.serenity-bdd</groupId>
+             <artifactId>serenity-screenplay</artifactId>
+             <version>${serenity.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>net.serenity-bdd</groupId>
+             <artifactId>serenity-screenplay-webdriver</artifactId>
+             <version>${serenity.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>net.serenity-bdd</groupId>
+             <artifactId>serenity-cucumber</artifactId>
+             <version>${serenity-cucumber.version}</version>
+         </dependency>-->
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.surefire</groupId>
+                        <artifactId>surefire-junit47</artifactId>
+                        <version>${surefire-junit47.version}</version>
+                    </dependency>
+
+                </dependencies>
+                <!--
+                https://www.baeldung.com/maven-junit-parallel-tests
+                -->
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <parallel>classesAndMethods</parallel>
+                    <threadCount>5</threadCount>
+                    <includes>
+                        <include>**/com.shiftedtech.BDDRunner.BDDRunner.class</include>
+                        <!--**/com.shiftedtech.BDDRunner.BDDRunner.class
+                        **/com.shiftedtech.script.Junit.HeatClinicMerchandiseWomenSectionTestScript.java
+                        <include>**/com.shiftvision.scripts.junit.SpreeLoginWithPageObjectModel3.java</include>
+                        **/com.shiftedtech.spreeTest.GridTestScript.java
+
+                        **/com.shiftedtech.script.Junit.HeatClinicMerchandiseWomenSectionTestScript.java
+                        -->
+                    </includes>
+
+                    <environmentVariables>
+                        <browser>${browser}</browser>
+                    </environmentVariables>
+
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.trivago.rta</groupId>
+                <artifactId>cluecumber-report-plugin</artifactId>
+                <version>1.3.0</version>
+                <executions>
+                    <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>reporting</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <sourceJsonReportDirectory>${project.build.directory}/cucumber-report/json</sourceJsonReportDirectory>
+                    <generatedHtmlReportDirectory>${project.build.directory}/cucumber-report</generatedHtmlReportDirectory>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>3.0.0-M3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+
+                        <configuration>
+                            <includes>
+                                <include>**/com.shiftedtech.BDDRunner.BDDRunner.class</include>
+                            </includes>
+                            <forkCount>4</forkCount>
+                            <reuseForks>true</reuseForks>
+                            <testFailureIgnore>true</testFailureIgnore>
+                            <environmentVariables>
+                                <browser>${browser}</browser>
+                            </environmentVariables>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+        </plugins>
+    </build>
+
+
+
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+
+
+
+</project>
